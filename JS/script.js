@@ -8,6 +8,8 @@ const favoriteColor = prompt('What is your favorite color?')
 
 const lastNumber = 22;
 
-// console.log(firstName, secondName, favoriteColor);
+console.log(firstName);
+console.log(secondName);
+console.log(favoriteColor);
 
 document.getElementById('pwd-generated').innerHTML += firstName + secondName + favoriteColor + lastNumber;
